@@ -20,7 +20,6 @@ const RestaurantCard = (props) => {
         <h4>{costForTwo}</h4>
         <h4>{avgRating}*</h4>
         <h4>{sla.deliveryTime}mins</h4>
-        <h4>{LogginUser}</h4>
       </div>
     )
   }

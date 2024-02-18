@@ -19,7 +19,7 @@ function Header(){
   // console.log(cartItems);
 
     return (
-      <div className="header">
+      <div className="header border border-sky-500">
        <div className="logo">
         <Link to="/">
         {/* <img src={Logo} className="App-logo" alt="logo" /> */}
@@ -28,7 +28,7 @@ function Header(){
        </div>
        <div className="navbar">
         <ul>
-          <li>{onlineStat ? "✅" : "🛑" }</li>
+          <li>Connected - {onlineStat ? "✅" : "🛑" }</li>
           <li>
             <Link to="/">Home</Link>
           </li>

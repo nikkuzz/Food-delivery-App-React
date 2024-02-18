@@ -3,6 +3,7 @@ import React from 'react';
 import { Provider } from 'react-redux';
 import { Outlet } from 'react-router';
 import { userStore } from './utils/userStore';
+import Footer from './components/Footer';
 
 
 
@@ -12,6 +13,7 @@ function App() {
     <Header />
   {/* for children attribute of createBrowserRouter.  */}
   <Outlet />
+    <Footer />
     </Provider>
   );
 }

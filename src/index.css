@@ -5,7 +5,6 @@
 .header{
   display: flex;
   justify-content: space-between;
-  border:1px solid black;
 }
 
 .App-logo{
@@ -35,7 +34,7 @@
 }
 
 .res-card:hover {
-  border: 1px solid blue;
+  border: 3px solid skyblue;
   cursor: pointer;
 }
 
