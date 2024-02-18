@@ -1,6 +1,6 @@
-import { useContext } from "react";
+// import { useContext } from "react";
 import { CDN_URL } from "../utils/constants";
-import UserContext from "../utils/UserContext";
+// import UserContext from "../utils/UserContext";
 import React from 'react';
 
 const RestaurantCard = (props) => {
@@ -10,7 +10,7 @@ const RestaurantCard = (props) => {
 
     const { cloudinaryImageId, name, cuisines, costForTwo, avgRating,sla} = resDetails?.info;
   
-   const {LogginUser} = useContext(UserContext);
+  //  const {LogginUser} = useContext(UserContext);
   
     return (
       <div className="res-card">
@@ -20,6 +20,7 @@ const RestaurantCard = (props) => {
         <h4>{costForTwo}</h4>
         <h4>{avgRating}*</h4>
         <h4>{sla.deliveryTime}mins</h4>
+        {/* <h4>{LogginUser}</h4> */}
       </div>
     )
   }
